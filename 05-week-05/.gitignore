@@ -1,0 +1,47 @@
+# Terraform local state and working files
+**/.terraform/*
+
+# State files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.backup.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Plan files
+*.tfplan
+*.plan
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# Lock files for local-only workflows
+.terraform.lock.hcl
+
+# Sensitive / env files often used with Terraform
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.crt
+
+# Optional: editor/system noise
+.DS_Store
+Thumbs.db
