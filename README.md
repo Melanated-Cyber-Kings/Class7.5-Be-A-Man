@@ -1,6 +1,4 @@
 # Be A Man Series Submissions
-
-# Be A Man Series
 <br/>
 <br/>
 
